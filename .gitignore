@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Dataset & Heavy Files
+dataset/
+*.zip
+*.tar
+*.gz
+
+# Model Weights (Optional: remove if uploading weights via Git LFS)
+# *.pth
+# *.pt
+# *.onnx
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# OS Generated
+.DS_Store
+Thumbs.db
