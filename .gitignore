@@ -40,13 +40,19 @@ dataset/
 *.tar
 *.gz
 
-# Model Weights (Optional: remove if uploading weights via Git LFS)
-# *.pth
-# *.pt
-# *.onnx
+# Large Model Weights Checkpoints (shared via Google Drive)
+*.pth
+*.pt
+*.onnx
+outputs/*.pth
+outputs/*.pt
+outputs/*.onnx
 
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
+
+# Templates & Drafts
+submission_email_template.md
 
 # OS Generated
 .DS_Store
