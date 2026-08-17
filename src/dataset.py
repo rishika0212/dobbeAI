@@ -51,7 +51,7 @@ class DentalSegmentationDataset(Dataset):
                     A.Resize(target_size[0], target_size[1]),
                     A.HorizontalFlip(p=0.5),
                     A.RandomBrightnessContrast(p=0.3),
-                    A.Affine(scale=(0.9, 1.1), translate_percent=(-0.05, 0.05), rotate=(-15, 15), p=0.5, cval=0),
+                    A.Affine(scale=(0.9, 1.1), translate_percent=(-0.05, 0.05), rotate=(-15, 15), p=0.5),
                     A.GaussNoise(p=0.2),
                     A.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
                     ToTensorV2(),
